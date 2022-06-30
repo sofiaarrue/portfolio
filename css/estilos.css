@@ -239,8 +239,49 @@ p {
 .tecnologias {
     background-color: white;
     text-align: center;
+    border-radius: 5px;
 }
 
+#experiencia h2 {
+    font-size: 24px;
+    color: #370a6d;
+    font-weight: 400;
+}
+
+#experiencia h3 {
+    color: #6A6A6A;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#experiencia h4 {
+    color: #370a6d;
+    font-size: 17px;
+}
+
+#experiencia h5 {
+    color: #6A6A6A;
+    font-size: 14px;
+}
+
+#experiencia .DePC{
+    filter: grayscale(100%);
+}
+
+#experiencia .DePC:hover{
+    filter: none;
+}
+
+#experiencia .rojo h2{
+    font-size: 24px;
+    color: #E20000;
+    font-weight: 400;
+}
+
+#experiencia .rojo h4 {
+    color: #E20000;
+    font-size: 17px;
+}
 
 
 @media (max-width: 750px) {
@@ -255,5 +296,10 @@ p {
     #proyectos {
         background-size: contain;
         background-repeat: no-repeat;
+    }
+
+    .mi-imagen {
+        text-align: center;
+        height: 100%;
     }
 }
