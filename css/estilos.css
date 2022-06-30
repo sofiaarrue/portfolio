@@ -54,21 +54,25 @@ p {
     color: white !important;
 }
 
-#contacto footer, #inicio footer {
+#contacto footer,
+#inicio footer {
     color: white;
 
 }
 
-#contacto footer a, #inicio footer a {
+#contacto footer a,
+#inicio footer a {
     color: white;
 }
 
-#contacto footer .fa-github, #inicio footer .fa-github {
+#contacto footer .fa-github,
+#inicio footer .fa-github {
     font-size: 30px;
     color: white;
 }
 
-#contacto footer .fa-linkedin-in, #inicio footer .fa-linkedin-in {
+#contacto footer .fa-linkedin-in,
+#inicio footer .fa-linkedin-in {
     color: #ff4a49;
     background-color: white;
     font-size: 20px;
@@ -171,11 +175,11 @@ p {
     text-align: center !important;
 }
 
-.cohete:hover{
+.cohete:hover {
     height: 410px;
 }
 
-.div-cohete{
+.div-cohete {
     max-height: 400px;
 }
 
@@ -206,13 +210,36 @@ p {
     border: 1px solid #370a6d;
 }
 
-#sobre-mi img{
+.mi-imagen {
     height: 196px;
     border-radius: 50%;
+    margin: 1em auto;
+}
+
+#stack-tecnologico {
+    width: auto;
+    background: linear-gradient(to right, rgba(184, 37, 20, 1) 0%, rgba(214, 52, 30, 1) 47%, rgba(240, 47, 23, 1) 70%, rgba(240, 47, 23, 1) 100%);
+}
+
+.tecnologias img {
+    height: 60px;
+}
+
+.tecnologias h3 {
+    font-size: 14px;
+    color: #282828;
+    font-weight: 300;
+}
+
+.tecnologias {
+    background-color: white;
+    text-align: center;
 }
 
 @media (max-width: 750px) {
-    #contacto, #inicio {
+
+    #contacto,
+    #inicio {
         background-image: url("../images/fondo-proyectos.png");
         background-size: contain;
         background-repeat: no-repeat;
