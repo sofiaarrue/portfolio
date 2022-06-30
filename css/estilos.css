@@ -221,6 +221,11 @@ p {
     background: linear-gradient(to right, rgba(184, 37, 20, 1) 0%, rgba(214, 52, 30, 1) 47%, rgba(240, 47, 23, 1) 70%, rgba(240, 47, 23, 1) 100%);
 }
 
+#stack-tecnologico h2 {
+    color: white;
+    font-size: 24px;
+}
+
 .tecnologias img {
     height: 60px;
 }
@@ -235,6 +240,8 @@ p {
     background-color: white;
     text-align: center;
 }
+
+
 
 @media (max-width: 750px) {
 
