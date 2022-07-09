@@ -12,7 +12,7 @@ body {
 }
 
 h1 {
-    color: #E20000;
+    color: #ff4a49;
 }
 
 p {
@@ -89,24 +89,25 @@ p {
 #proyectos {
     background-image: url(../images/fondo-proyectos.png);
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #proyectos footer {
-    color: #E20000;
+    color: #ff4a49;
 
 }
 
 #proyectos footer a {
-    color: #E20000;
+    color: #ff4a49;
 }
 
 #proyectos footer .fa-github {
     font-size: 30px;
-    color: #E20000;
+    color: #ff4a49;
 }
 
 #proyectos footer .fa-linkedin-in {
-    color: #E20000;
+    color: #ff4a49;
     background-color: white;
     font-size: 20px;
     border: 0px;
@@ -315,21 +316,21 @@ p {
 }
 
 #sobre-mi footer {
-    color: #E20000;
+    color: #ff4a49;
 
 }
 
 #sobre-mi footer a {
-    color: #E20000;
+    color: #ff4a49;
 }
 
 #sobre-mi footer .fa-github {
     font-size: 30px;
-    color: #E20000;
+    color: #ff4a49;
 }
 
 #sobre-mi footer .fa-linkedin-in {
-    color: #E20000;
+    color: #ff4a49;
     background-color: white;
     font-size: 20px;
     border: 0px;
