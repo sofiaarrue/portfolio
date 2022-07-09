@@ -183,13 +183,12 @@ p {
     max-height: 400px;
 }
 
-#inicio span {
+#inicio .input-home p{
     color: white;
     font-size: 17px;
     border-radius: 50px;
     border: 1px solid white;
     font-weight: 600;
-    margin: 40px 0;
 }
 
 .btn {
@@ -310,6 +309,7 @@ p {
 
 #otros .blanco {
     background-color: white;
+    border-radius: 15px;
 }
 
 #sobre-mi footer {
@@ -354,8 +354,18 @@ p {
         background-repeat: no-repeat;
     }
 
+
+
     .mi-imagen {
         text-align: center;
         height: 100%;
+    }
+
+    #inicio .input-home p{
+        color:  #ff4a49;
+        font-size: 17px;
+        border-radius: 50px;
+        border: 1px solid #ff4a49;
+        font-weight: 600;
     }
 }
